@@ -1,0 +1,19 @@
+
+
+body {
+  background-color:white;
+  font-family: 'Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace', cursive;
+  font-size:2em;
+  margin: 10px 50px;
+  letter-spacing: 6px;
+  font-weight: bold;
+}
+a {
+  display:none;
+  font-family: 'Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace', cursive;
+  font-size:2em;
+  margin: 10px 50px;
+  letter-spacing: 6px;
+  font-weight: bold;
+  text-decoration:none;
+}
