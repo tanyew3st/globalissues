@@ -35,7 +35,7 @@ function why(){
 
 var i = 0;
 
-var txt = 'These next few webpages will show you the power of the access to technology through first hand stories, as if you are logging on to a computer in a different country. These countries will show you how their country is developing and what happens when their population lives without  access to technology'; /* The text */
+var txt = 'These next few webpages will show you the power of the access to technology through first hand stories, as if you are logging on to a computer in a different country.^ These pages will show you how their country is developing and what happens when...^ their population lives without  access to technology'; /* The text */
 var txt2 = 'Here is a little preview into the life there';
 var speed = 100; /* The speed/duration of the effect in milliseconds */
 
@@ -53,8 +53,13 @@ function typeWriter() {
     i++;
 
 		if(txt.charAt(i)=='.'){
-			setTimeout(typeWriter, 50);
+			setTimeout(typeWriter, 300);
 		}
+    else if(txt.charAt(i)=='^'){
+      document.getElementById('demo').innerHTML = "";
+      i+=2;
+      setTimeout(typeWriter, 50);
+    }
 		else {
     	setTimeout(typeWriter, 50);
 		}
@@ -115,6 +120,7 @@ function removeWordAndAdd(wordLength, reAddWord) {
           else if(catherine === 4){
             catherine = catherine + 1;
             removeWordAndAdd(25, 'the ability to lead a good life.');
+            document.getElementById('paragraph').style.display='block';
           }
 
         }
