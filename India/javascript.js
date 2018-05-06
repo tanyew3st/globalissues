@@ -1,26 +1,25 @@
-var problems_text = "here is a bunch of random text about problems here here is"
-+ "a bunch of random text about problems is a bunch of random text about problems" +
- "here is a bunch of random text about problems"
- + "a bunch of random text about problems is a bunch of random text about problems" +
-  "here is a bunch of random text about problems"
-  + "a bunch of random text about problems is a bunch of random text about problems" +
-   "here is a bunch of random text about problems"
+var problems_text = "India claims that it has some of the best tech and IT companies in the world! Yet, according to Pew Research Center, only 22% of adults in India have access to the internet. Additionally, out of the total population, according to World Bank, 10.1 percent of the population have access to the internet. Why is this?" +
+  "<ul>"+
+    "<li>Well, India simply lacks the infrastructure to provide to such a big population - fiber optic links and servers needed to expand are very hard to implement and are quite scarce.</li>" +
+    "<li>Affordibility: Accessing the internet is not as cheap as America makes it. Adding to that is the fact that 75% of India earns less than 74 dollars per month (CNN)</li>"+
+    "<li>Awareness: Many Indians lack a basic understanding of the Internet: they don't know much about it and can barely use it. The internet is learned through connections and observations. When you see others using Facebook or Twitter, etc, you learn Twitter and Facebook. But when you don't see anyone using these technologies, it's very difficult to learn. Similar to learning a new language, education in the internet is just not easy.</li>"+
+  "</ul>"
 
-var solutions_text = "here is a bunch of random text about problems here here is"
-+ "a bunch of random text about ]] is a bunch of random text about problems" +
- "here is a bunch of random text about problems"
- + "a bunch of random text about problems is a bunch of random text about problems" +
-  "here is a bunch of random text about problems"
-  + "a bunch of random text about problems is a bunch of random text about problems" +
-   "here is a bunch of random text about problems"
+var solutions_text = "Companies and Startups are helping grow awareness and educate citizens in India about technology"+
+"<ul>"+
+  "<li>The Internet Society is an organizations trying to help local craftspeople and ongoing workshops, in hopes of bridging the digital divide. The Bangalore part of the Inernet Socitey Community is training everyone from glass cutters to tailers to furniture makers, etc. They are doing helping them download pictures, use e-mail, work with video conferencing, use Excel and Word, and market their products on Facebook, YouTube, and Twitter.</li>"+
+  "<li>A company callled Cramnet is trying to empower Indians caught into the wrong side of the Digital Divide. What they have realized is that the access to technology is not a choice, it is an unfair punishment. Simply because of luck and unforeseen circumstances, some are born with technology and some are born without. Cramnet Wireless Communications uses unused spectrum to provide wireless internet free of charge to the \"Digitally desenfranchised\" (Raghavendra Sathyanarayana, Wireless" + "Commincations Engineer) in India</li>"+
+  "<li>The Digital Empowerement Foundation in Delhi, India has been installing wireless networks in remote tribal regions using wasted spectrum. The man who founded this organization resigned from his position as CEO of a software copany after seeing that \"The entire country could leapfrog the developmental cycle if they were to forget about racing for the industrial revolution and aspire for an informtation revolutions instead\" (Osama Manzar, founder of DEF) This is a powerful quote by the founder because it really is important to note that countries like India need to focus on breaching the digital divide over industrial. As seen through successful countries such as Iceland, we are no in the Information stage, no longer needing industrial advancements.</li>"+
+  "<li>Companies like the DEF are putting in Solar-Enabled supplying nodes (way to get wreless connection). However, most of the time this much power is not needed - as one researcher mentioned, a back-up is sufficient because no one in remote areas really wants a 24/7 service.</li>"+
+  "<li>When the CEO was asked whether clean water and electricy should be given priority over this seemingly trivial persuit, he said<blockquote style='font-size:2em'> \"Food, water, and electricity are also a priority. But they have not been getting it for several centuries and if they do not join the information bandwagon now they will continue to suffer and be exploited. Being part of the digital media, they can at least share their grievances.\"</blockquote> If India is not able to figure out their access to technology now, they will never figure it out. Similarily, had they focused all their efforts on electricty when it was becoming essential, they would nto have the problem of energy that they have today. And another part is that <blockquote style='font-size:1.5em'>\"Never in the istory of India have they got a chance to be an equal part of information creation.\"</blockquote></li>"+
+"<ul>"
+var why_text = "Here are some stories" +
+"<ul>"+
+    "<li>\"Mr Kemperaj from Hennur in north Bangalore, India makees lamp shades and pillo cases. He used to travel more than 70km (43.5 miles) to geta sample of work approved by his vendor. Now he sits in front of his computer, send the photos by email and surfs the Net to research new designs and discover new sales routes such as eBay\" (CNN)</li>"+
+    "<li>Using grants from the International Society, groups of Artisans in Bangalore are now replacing their achaic paper-based organizing tools with software like Excel and Word</li>"+
+    "<li>Wireless mesh networks have been installed by the DEF in a town called Chanderi, a town in Madhya Pradesh, where 60 per cent of the population earn a living from handloom weaving. At Tura, in the northeast state Meghalaya, where different tribes live, the Digital Empowerement Foundation use technology to deliver video conferencing to educate tribal children</li>"+
 
-var why_text = "here is a bunch of random text about problems here here is"
-   + "a bunch of random text about problems is a bunch of random text about problems" +
-    "here is a bunch of random text about problems"
-    + "a bunch of random text about asfdsgahlsjgdsaf;lasjdfdfasdfandom text about problems"
-     + "a bunch of random text about problems is a bunch of random text about problems" +
-      "here is a bunch of random text about problems"
-
+"<ul>";
 var catherine = 0;
 
 function problems(){

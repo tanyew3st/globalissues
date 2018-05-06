@@ -23,8 +23,8 @@ function randomText() {
 		document.getElementById("demo").innerHTML += randomCrap.charAt(i) + '|';
 		i++;
 
-	 setTimeout(randomText, .1);
-		
+	 setTimeout(randomText, 1);
+
 	}
 }
 function typeWriter() {
