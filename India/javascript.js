@@ -24,12 +24,17 @@ var catherine = 0;
 
 function problems(){
   document.getElementById("dynamic-content").innerHTML = problems_text;
+  document.getElementById("continue").style.display="block";
 }
 function solutions(){
   document.getElementById("dynamic-content").innerHTML = solutions_text;
+  document.getElementById("continue").style.display="block";
+
 }
 function why(){
   document.getElementById("dynamic-content").innerHTML = why_text;
+  document.getElementById("continue").style.display="block";
+
 }
 
 var i = 0;
@@ -40,7 +45,6 @@ var speed = 100; /* The speed/duration of the effect in milliseconds */
 
 window.onload = function(){
 	typeWriter();
-
 }
 
 function typeWriter() {

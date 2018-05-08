@@ -6,15 +6,32 @@ var orThis = 'Or this';
 var randomCrap = 'This study contributes to characterization of satellite precipitation error which is fundamental to develop uncertainty models and bias reduction algorithms. Systematic and random error components of several satellite precipitation products are investigated over different seasons, thresholds and temporal accumulations. The analyses show that the spatial distribution of systematic error has similar patterns for all precipitation products. However, the systematic (random) error of daily accumulations is significantly less (more) than that of high resolution 3-hr data. One should note that the systematic biases of satellite precipitation are distinctively different in the summer and winter. The systematic (random) error is remarkably higher (lower) during the winter. Furthermore, the systematic error seems to be proportional to the rain rate magnitude. The findings of this study highlight that bias removal methods should take into account the spatiotemporal characterist';
 
 
-var txt2 = 'spacebaConfused?... Basically, what I\'m trying to show you is that life without technology would be painful...^ The blue screen represents life in technology with no education, the white represents one with limited access, and the black is when you don\t even have technology...^ That sucks doesn\'t it?... Well, unfortunately, that\'s the life in many countries - here\'s one';
+var txt2 = 'spacebaConfused?... Basically, what I\'m trying to show you is that life without technology would be painful...^ The blue screen represents life in technology with no education in technology, the white represents one with no internet, and the black is when you don\'t even have technology...^ That sucks doesn\'t it?... Well, unfortunately, that\'s the life in many countries - here\'s one';
 var speed = 75; /* The speed/duration of the effect in milliseconds */
 
 window.onload = function(){
-	alert('press Fn and F11 for optimal viewing experience');
+	alert('press Fn and F11 together for optimal viewing experience. Click on the text at any time to skip.');
 	typeWriter();
 
 }
 
+var input = document.getElementById("myInput");
+
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(event) {
+  // Cancel the default action, if needed
+  event.preventDefault();
+  // Number 13 is the "Enter" key on the keyboard
+  if (event.keyCode === 13) {
+    // Trigger the button element with a click
+    alert('enter key pressed');
+  }
+});
+
+
+function movePast() {
+	window.location="../India/india.html";
+}
 function randomText() {
 	var item = document.getElementById("demo").innerHTML;
 	document.getElementById("demo").innerHTML = item.substring(0, item.length-1);
@@ -23,7 +40,7 @@ function randomText() {
 		document.getElementById("demo").innerHTML += randomCrap.charAt(i) + '|';
 		i++;
 
-	 setTimeout(randomText, 1);
+	 setTimeout(randomText, 20);
 
 	}
 }
@@ -136,7 +153,7 @@ function typeWriter2() {
 		else if(txt2.charAt(i)=='^'){
 			document.getElementById("demo").innerHTML = "";
 			i+=2;
-			setTimeout(typeWriter2, speed);
+			setTimeout(typeWriter2, 300);
 		}
 		else {
 			setTimeout(typeWriter2, speed);
