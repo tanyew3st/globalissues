@@ -1,13 +1,10 @@
 body {
-  background-color:none;
+  background-color:white;
   text-align: center;
   margin: 5%;
   font-family: courier;
   font-size:1.4em;
 }
 p {
-  display:none;
-}
-a {
   display:none;
 }
